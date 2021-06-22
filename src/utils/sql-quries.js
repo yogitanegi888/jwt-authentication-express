@@ -1,0 +1,1 @@
+module.exports.CREATE_NEW_USER = `INSERT INTO users (first_name, last_name, date_of_birth, username, password) VALUES (?, ?, ?, ?, ?)`;
